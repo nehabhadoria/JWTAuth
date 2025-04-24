@@ -1,5 +1,8 @@
+# Build output
 bin/
 obj/
+
+# User-specific files
 *.user
 *.suo
 *.userosscache
@@ -8,15 +11,19 @@ obj/
 # ASP.NET Secrets
 secrets.json
 
-# Ignore Visual Studio & Rider files
+# Visual Studio & Rider files
 .vscode/
 .idea/
 *.csproj.user
 
-# Ignore environment files
+# Environment & database files
 .env
 *.db
 *.sqlite
 
-# Ignore published output
+# Published output
 publish/
+
+# App configuration files with secrets
+appsettings.json
+appsettings.Development.json
